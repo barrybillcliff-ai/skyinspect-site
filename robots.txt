@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://skyinspect.ai/sitemap.xml

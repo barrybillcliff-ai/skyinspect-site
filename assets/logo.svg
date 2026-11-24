@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48" role="img" aria-labelledby="title">
+  <title id="title">Sky Inspect</title>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#20e0c0"/><stop offset="1" stop-color="#55a7ff"/></linearGradient></defs>
+  <path fill="none" stroke="url(#g)" stroke-width="3" d="M8 24 24 8l16 16-16 16Z"/><circle cx="24" cy="24" r="5" fill="#ff9f43"/><path stroke="#20e0c0" stroke-width="2" d="M3 24h8m26 0h8M24 3v8m0 26v8"/>
+  <text x="58" y="31" fill="#f7fafc" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="750" letter-spacing=".3">SKY INSPECT</text>
+</svg>
