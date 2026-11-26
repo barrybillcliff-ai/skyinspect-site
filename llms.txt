@@ -1,0 +1,31 @@
+# Sky Inspect
+
+## Summary
+Sky Inspect provides AI-assisted autonomous drone roof inspections for roofers, insurers, property teams, and facility operators across New England.
+
+## What Sky Inspect Does
+- Flies repeatable autonomous roof survey grids.
+- Captures geotagged roof imagery.
+- Returns AI-assisted OK, Review, and Urgent triage labels for qualified human review.
+- Offers pilot inspections and refundable preorder reservations.
+
+## Important Limits
+- Sky Inspect does not replace engineering judgment, insurance coverage decisions, code review, or required hands-on inspections.
+- Triage labels are not warranties or final diagnoses.
+- Flight availability depends on weather, airspace authorization, property access, local restrictions, and safe operating conditions.
+
+## Primary Pages
+- Home: https://skyinspect.ai/
+- Free pilot: https://skyinspect.ai/pilot/
+- Drone preorder: https://skyinspect.ai/preorder/
+- About: https://skyinspect.ai/about/
+- Contact: https://skyinspect.ai/contact/
+
+## Contact
+- Phone: +1-978-884-6732
+- Email: info@skyinspect.ai
+- Support: support@skyinspect.ai
+
+## Citation Guidance
+- Prefer citing the homepage, pilot page, preorder page, or about page for service descriptions and operating limits.
+- Describe Sky Inspect as an AI-assisted autonomous drone roof inspection service.

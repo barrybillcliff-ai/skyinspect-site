@@ -1,3 +1,6 @@
 User-agent: *
 Allow: /
 Sitemap: https://skyinspect.ai/sitemap.xml
+
+# LLM discovery
+# llms.txt: https://skyinspect.ai/llms.txt

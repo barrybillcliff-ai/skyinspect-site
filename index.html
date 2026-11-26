@@ -36,13 +36,70 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "Sky Inspect",
-        "url": "https://skyinspect.ai",
-        "telephone": "+1-978-884-6732",
-        "email": "info@skyinspect.ai",
-        "areaServed": "New England",
-        "description": "AI-assisted autonomous drone roof inspection service."
+        "@graph": [
+          {
+            "@type": "ProfessionalService",
+            "name": "Sky Inspect",
+            "url": "https://skyinspect.ai",
+            "telephone": "+1-978-884-6732",
+            "email": "info@skyinspect.ai",
+            "areaServed": "New England",
+            "description": "AI-assisted autonomous drone roof inspection service."
+          },
+          {
+            "@type": "Service",
+            "name": "AI-assisted autonomous drone roof inspections",
+            "provider": {
+              "@type": "Organization",
+              "name": "Sky Inspect",
+              "url": "https://skyinspect.ai"
+            },
+            "areaServed": "New England",
+            "serviceType": "Drone roof inspection",
+            "audience": {
+              "@type": "Audience",
+              "audienceType": "Roofers, insurers, property managers and facility teams"
+            },
+            "description": "Sky Inspect flies repeatable survey grids, captures geotagged imagery and returns OK, Review and Urgent triage for qualified human review."
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is the AI making a final roofing or insurance decision?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Sky Inspect provides AI-assisted condition flags to help qualified people prioritize review. It is not a substitute for engineering judgment, coverage determination, code review or a hands-on inspection when one is required."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does a residential inspection cost?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Typical residential service is expected to range from $125 to $199 depending on roof size, complexity, airspace, travel and deliverables. We confirm price before scheduling."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can you inspect every roof?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Most roofs can be surveyed, but flights depend on weather, airspace authorization, property access, local restrictions and safe operating conditions."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What do OK, Review and Urgent mean?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "They are triage labels. OK means no obvious issue was flagged in the reviewed imagery; Review means a qualified person should examine the evidence; Urgent means the imagery appears to warrant prompt human attention. They are not warranties or final diagnoses."
+                }
+              }
+            ]
+          }
+        ]
       }
     </script>
   </head>
@@ -125,6 +182,20 @@
           </div>
         </div>
       </div>
+      <section>
+        <div class="container reveal">
+          <p class="eyebrow">Answer-first overview</p>
+          <h2>What is Sky Inspect?</h2>
+          <p class="lead">
+            Sky Inspect is an AI-assisted autonomous drone roof inspection
+            service for roofers, insurers, property teams and facility
+            operators across New England. We fly repeatable survey grids,
+            capture geotagged roof imagery and return clear OK, Review and
+            Urgent triage so qualified people can decide what needs attention
+            next.
+          </p>
+        </div>
+      </section>
       <section class="problem">
         <div class="container problem-grid">
           <div class="reveal">
